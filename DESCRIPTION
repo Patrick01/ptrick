@@ -1,0 +1,19 @@
+Package: ptrick
+Type: Package
+Title: Functions for Patrick
+Version: 0.1.0
+Author: Patrick Werkmeister
+Maintainer: The package maintainer <pwerk01@gmail.com>
+Description: Functions i don't want to loos. Some drawings stuff for example
+License: What license is it under?
+Encoding: UTF-8
+Depends: 
+  dplyr, 
+  tibble
+Imports: 
+  ggplot2, 
+  purrr, 
+  ggraph,
+  ellipse,
+  e1071
+LazyData: true
