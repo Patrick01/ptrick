@@ -7,13 +7,17 @@ Maintainer: The package maintainer <pwerk01@gmail.com>
 Description: Functions i don't want to loos. Some drawings stuff for example
 License: What license is it under?
 Encoding: UTF-8
-Depends: 
+Depends:
   dplyr, 
   tibble
+LinkingTo:
+    Rcpp
 Imports: 
   ggplot2, 
   purrr, 
   ggraph,
   ellipse,
-  e1071
+  e1071,
+  fs, 
+  Rcpp
 LazyData: true
