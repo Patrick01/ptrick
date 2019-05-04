@@ -1,10 +1,7 @@
 
-
-
 xts_to_tbl <- function(xts) {
   ind <- xts::ind
 
-  apple_df <- tibble::as_tibble(xts) %>%
-    mutate(index = index(xts)) %>%
-    select(index, everything())
+  tibble::add_column(as_tibble(xts),
+                     index = index(xts), before = 1)
 }

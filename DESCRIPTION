@@ -21,3 +21,4 @@ Imports:
   fs, 
   Rcpp
 LazyData: true
+RoxygenNote: 6.1.1
