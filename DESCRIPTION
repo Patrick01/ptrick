@@ -22,3 +22,5 @@ Imports:
   Rcpp
 LazyData: true
 RoxygenNote: 6.1.1
+URL: https://github.com/Patrick01/ptrick
+BugReports: https://github.com/Patrick01/ptrick/issues
