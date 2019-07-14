@@ -3,8 +3,8 @@ Type: Package
 Title: Functions for Patrick
 Version: 0.1.0
 Author: Patrick Werkmeister
-Maintainer: The package maintainer <pwerk01@gmail.com>
-Description: Functions i don't want to loos. Some drawings stuff for example
+Maintainer: Patrick Werkmeister <pwerk01@gmail.com>
+Description: General Helper Functions.
 License: What license is it under?
 Encoding: UTF-8
 Depends:
