@@ -1,0 +1,19 @@
+# Report
+
+```{r}
+library(ptrick)
+```
+
+Das ist die Tabelle:
+```{r echo=FALSE}
+load("data/tbl.rds")
+
+de_tbl(tab)
+```
+
+
+Das ist die Grafik:
+```{r echo=FALSE}
+knitr::include_graphics("data/graph.png")
+```
+
